@@ -12,6 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Intro.unity
     guid: a68bc14099e9f2446b9365f862465a96
   - enabled: 1
+    path: Assets/Scenes/Game Scenes/Chapter 1.unity
+    guid: 293eb5f6e6c2fcc43a479b780176320f
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Chapter 2.unity
+    guid: 2ae0904025283674f93ecbc7c6c1f91d
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Chapter 3.unity
+    guid: 96df7e6cd94d6364092e83adf4e0b471
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Chapter 4.unity
+    guid: f122de72ce1a66a46b584fb3710d361e
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Chapter 5.unity
+    guid: 09f208bea0f53b042a10c83e89922237
+  - enabled: 1
     path: Assets/Scenes/Game Scenes/End.unity
     guid: a58654479b82493408cbb17ad85e5c82
   m_configObjects:
