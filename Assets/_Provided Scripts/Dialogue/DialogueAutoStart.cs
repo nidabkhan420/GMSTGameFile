@@ -22,7 +22,7 @@ public class DialogueAutoStart : MonoBehaviour
             yield return new WaitForEndOfFrame(); // Waits until the end of the frame
         }
 
-        if (!DialogueManager.GetInstance().dialogueIsPlaying)
+        if (DialogueManager.GetInstance()!=null && !DialogueManager.GetInstance().dialogueIsPlaying)
         {
             DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
         }

@@ -66,7 +66,14 @@ public class DataPersistenceManager : MonoBehaviour
         LoadGame();
 
         // Create a checkpoint on scene load
-        CheckpointManager.Instance.CreateCheckpoint();
+        //CheckpointManager.Instance.CreateCheckpoint();
+        if (CheckpointManager.Instance != null) {
+            CheckpointManager.Instance.CreateCheckpoint();
+        }
+        else
+        {
+            Debug.LogWarning("CheckpointManager.Instance is null!");
+        }
 
         // start up the auto saving coroutine
         if (autoSaveCoroutine != null)
