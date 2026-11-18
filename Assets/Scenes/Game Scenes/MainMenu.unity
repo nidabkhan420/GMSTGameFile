@@ -2407,7 +2407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &674460675
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3251,13 +3251,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstSelected: {fileID: 1532728041}
-  daySelectMenu: {fileID: 0}
-  settingsMenu: {fileID: 0}
-  creditsMenu: {fileID: 0}
+  saveSlotsMenu: {fileID: 827251962}
   newGameButton: {fileID: 1532728041}
-  daySelectButton: {fileID: 0}
-  settingButton: {fileID: 0}
-  creditsButton: {fileID: 0}
+  continueGameButton: {fileID: 0}
+  loadGameButton: {fileID: 0}
   exitGameButton: {fileID: 1291019723}
 --- !u!1 &1032352987
 GameObject:
@@ -3690,7 +3687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1154357602
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4176,18 +4173,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1014374665}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: OnClickExit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4825,7 +4810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1467720273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5195,18 +5180,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1014374665}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: OnNewGameClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
