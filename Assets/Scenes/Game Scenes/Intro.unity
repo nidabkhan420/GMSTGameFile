@@ -2863,8 +2863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b58814a389a8b409c0776c8deaf050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneID: 2
-  scenechangenum: 2
+  sceneID: 1
+  scenechangenum: 1
 --- !u!1 &758927031
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,7 +5085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c80813b86ba2334589ea5a18e1e8683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: 91fc519f7c9e6514095e2af8ec43aa17, type: 3}
+  inkJSON: {fileID: 4900000, guid: 2014cd2f482b7bf4395bb4019b44582e, type: 3}
 --- !u!4 &1910476520
 Transform:
   m_ObjectHideFlags: 0
@@ -5632,7 +5632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typingSpeed: 0.01
-  loadGlobalsJSON: {fileID: 4900000, guid: 4889a529727bb084aa3584d6214bfe10, type: 3}
+  loadGlobalsJSON: {fileID: 4900000, guid: 2014cd2f482b7bf4395bb4019b44582e, type: 3}
   dialoguePanel: {fileID: 984519158}
   continueIcon: {fileID: 1883478183}
   dialogueText: {fileID: 2076099377}
